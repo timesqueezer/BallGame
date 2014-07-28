@@ -1,0 +1,24 @@
+#!/usr/bin/env mkb
+files
+{
+    BallGame.cpp
+	[build_ballgame_vc12x]
+	(build_ballgame_vc12x)
+	Ball.cpp
+
+	Ball.h
+}
+
+subprojects
+{
+    iwutil
+    iw2dscenegraphcore
+    iw2dscenegraph
+    iwgx
+    iwresmanager
+    iwtween
+}
+
+deployment
+{
+}

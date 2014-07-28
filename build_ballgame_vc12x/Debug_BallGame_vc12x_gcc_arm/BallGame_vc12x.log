@@ -1,0 +1,19 @@
+﻿Build started 7/28/2014 18:12:40.
+     1>Project "D:\src\marmalade\BallGame\build_ballgame_vc12x\BallGame_vc12x.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Marmalade\7.3\s3e\bin\CL.exe /c /Ic:/marmalade/7.3/modules/iwutil/h /Ic:/marmalade/7.3/modules/third_party/libjpeg/h /Ic:/marmalade/7.3/modules/third_party/zlib/h /Ic:/marmalade/7.3/modules/third_party/libpng/h /Ic:/marmalade/7.3/modules/iw2dscenegraphcore/h /Ic:/marmalade/7.3/modules/iw2dscenegraph/h /Ic:/marmalade/7.3/modules/iw2d/h /Ic:/marmalade/7.3/modules/iwgx/h /Ic:/marmalade/7.3/modules/iwgl/h /Ic:/marmalade/7.3/modules/iwgeom/h /Ic:/marmalade/7.3/modules/iwresmanager/h /Ic:/marmalade/7.3/extensions/pvrtextool/h /Ic:/marmalade/7.3/modules/iwgxfont/h /Ic:/marmalade/7.3/modules/third_party/tiniconv/source /Ic:/marmalade/7.3/modules/iwtween/h /Ic:/marmalade/7.3/s3e/h /Ic:/marmalade/7.3/s3e/h/ext /Ic:/marmalade/7.3/s3e/h/std /Ic:/marmalade/7.3/s3e/h/std/c++ /Ic:/marmalade/7.3/s3e/h/ext_legacy /Ic:/marmalade/7.3/s3e/h/legacy /I. /Z7 /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_BallGame_vc12x_gcc_arm\\" /Fd"Debug_BallGame_vc12x_gcc_arm\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /Fe"s3e-custom-tool='c:/marmalade/7.3/s3e/gcc/win32/bin/arm-none-eabi-gcc.exe' tooltype=gcc_compiler -funsigned-char -fno-strict-aliasing -fno-stack-protector -fno-short-enums -fshort-wchar -Wall -fomit-frame-pointer -fmessage-length=0 -Wno-unused -Wno-parentheses -save-temps -ffunction-sections -mstructure-size-boundary=8 -march=armv6 -mfloat-abi=soft -mthumb-interwork -mword-relocations -Wno-switch -Wno-psabi -fvisibility=hidden -nostdinc -fPIC --cppflag=-Wno-reorder --cppflag=-fvisibility-inlines-hidden --cppflag=-fno-exceptions --cppflag=-nostdinc++ -g -O0 -gdwarf-2" /FD  /FI"d:\src\marmalade\BallGame\build_ballgame_vc12x\temp_defines_debug.h" Ball.cpp ..\BallGame.cpp c:\marmalade\7.3\modules\iw2dscenegraph\source\Iw2DSceneGraph.cpp c:\marmalade\7.3\modules\iw2dscenegraphcore\source\Iw2DSceneGraphCore.cpp c:\marmalade\7.3\modules\iwtween\source\IwTween.cpp c:\marmalade\7.3\extensions\pvrtextool\interface\PVRTexTool_interface.cpp
+         ARM Compiling(GCC) D:\src\marmalade\BallGame\build_ballgame_vc12x\Ball.cpp ...
+     1>D:/src/marmalade/BallGame/build_ballgame_vc12x/Ball.cpp(16): error : return type specification for constructor invalid (col 17)
+         
+         Ball Ball::Ball() {}
+         ^
+         ARM Compiling(GCC) D:\src\marmalade\BallGame\BallGame.cpp ...
+         ARM Compiling(GCC) c:\marmalade\7.3\modules\iw2dscenegraph\source\Iw2DSceneGraph.cpp ...
+         ARM Compiling(GCC) c:\marmalade\7.3\modules\iw2dscenegraphcore\source\Iw2DSceneGraphCore.cpp ...
+         ARM Compiling(GCC) c:\marmalade\7.3\modules\iwtween\source\IwTween.cpp ...
+         ARM Compiling(GCC) c:\marmalade\7.3\extensions\pvrtextool\interface\PVRTexTool_interface.cpp ...
+     1>Done Building Project "D:\src\marmalade\BallGame\build_ballgame_vc12x\BallGame_vc12x.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.76

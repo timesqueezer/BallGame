@@ -1,0 +1,2 @@
+^D:\SRC\MARMALADE\BALLGAME\BALLGAME.MKB
+"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "d:/src/marmalade/BallGame/BallGame.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project
