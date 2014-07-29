@@ -88,10 +88,10 @@
     <None Include="c:/marmalade/7.3/s3e/h/std/c++/algorithm">
       <Filter>'Marmalade System (S3E)'\stdc headers\c++</Filter>
     </None>
-    <None Include="d:/src/marmalade/BallGame/data/app.config.txt">
+    <None Include="c:/Matz_Stuff/src/BallGame/data/app.config.txt">
       <Filter></Filter>
     </None>
-    <None Include="d:/src/marmalade/BallGame/data/app.icf">
+    <None Include="c:/Matz_Stuff/src/BallGame/data/app.icf">
       <Filter></Filter>
     </None>
     <None Include="c:/marmalade/7.3/s3e/h/std/c++/bitset">
@@ -346,7 +346,7 @@
     <None Include="c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf">
       <Filter>(zlib)</Filter>
     </None>
-    <CustomBuild Include="d:/src/marmalade/BallGame/BallGame.mkb">
+    <CustomBuild Include="c:/Matz_Stuff/src/BallGame/BallGame.mkb">
       <Filter></Filter>
     </CustomBuild>
   </ItemGroup>
@@ -354,7 +354,7 @@
     <ClInclude Include="c:/marmalade/7.3/s3e/h/AirplayVersion.h">
       <Filter>'Marmalade System (S3E)'</Filter>
     </ClInclude>
-    <ClInclude Include="d:/src/marmalade/BallGame/build_ballgame_vc12x/Ball.h">
+    <ClInclude Include="c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Ball.h">
       <Filter>build_ballgame_vc12x</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.3/modules/iw2d/h/Iw2D.h">
@@ -1247,16 +1247,16 @@
     <ClCompile Include="..\BallGame.cpp">
       <Filter></Filter>
     </ClCompile>
-    <ClCompile Include="c:\marmalade\7.3\modules\iw2dscenegraph\source\Iw2DSceneGraph.cpp">
+    <ClCompile Include="..\..\..\..\marmalade\7.3\modules\iw2dscenegraph\source\Iw2DSceneGraph.cpp">
       <Filter>'Marmalade Studio'\iw2dscenegraph</Filter>
     </ClCompile>
-    <ClCompile Include="c:\marmalade\7.3\modules\iw2dscenegraphcore\source\Iw2DSceneGraphCore.cpp">
+    <ClCompile Include="..\..\..\..\marmalade\7.3\modules\iw2dscenegraphcore\source\Iw2DSceneGraphCore.cpp">
       <Filter>'Marmalade Studio'\iw2dscenegraphcore</Filter>
     </ClCompile>
-    <ClCompile Include="c:\marmalade\7.3\modules\iwtween\source\IwTween.cpp">
+    <ClCompile Include="..\..\..\..\marmalade\7.3\modules\iwtween\source\IwTween.cpp">
       <Filter>(iwtween)</Filter>
     </ClCompile>
-    <ClCompile Include="c:\marmalade\7.3\extensions\pvrtextool\interface\PVRTexTool_interface.cpp">
+    <ClCompile Include="..\..\..\..\marmalade\7.3\extensions\pvrtextool\interface\PVRTexTool_interface.cpp">
       <Filter>Extensions\PVRTexTool\interface</Filter>
     </ClCompile>
   </ItemGroup>
