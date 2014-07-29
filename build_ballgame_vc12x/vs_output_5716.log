@@ -1,0 +1,11 @@
+1>------ Build started: Project: BallGame_vc12x, Configuration: x86 Debug Win32 ------
+1>  Performing Custom Build Tools
+1>  msg: option 'default-buildenv' overridden by command line
+1>  C:\Marmalade\7.3\s3e\makefile_builder\mkb.py c:/Matz_Stuff/src/BallGame/BallGame.mkb --buildenv=VC12X --default-buildenv=vc12x --msvc-project
+1>  Building project: c:/Matz_Stuff/src/BallGame/BallGame.mkb
+1>  done
+1>  BallGame_vc12x.vcxproj -> c:\Matz_Stuff\src\BallGame\build_ballgame_vc12x\Debug_BallGame_vc12x_x86\BallGame.s86
+1>  C:\Marmalade\7.3\s3e\python\python.exe .\process_map.py "c:\Matz_Stuff\src\BallGame\build_ballgame_vc12x\Debug_BallGame_vc12x_x86\BallGame.s86"
+1>  "s3e_plink" -l "c:\Matz_Stuff\src\BallGame\build_ballgame_vc12x\Debug_BallGame_vc12x_x86\BallGame.s86" 
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

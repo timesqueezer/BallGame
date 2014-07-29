@@ -4,8 +4,8 @@
 # tool during the build process.
 
 config = {}
-cmdline = ['C:/Marmalade/7.3/s3e/makefile_builder/mkb.py', 'd:/src/marmalade/BallGame/BallGame.mkb', '--buildenv=VC12X', '--default-buildenv=vc12x', '--msvc-project', '--deploy-only']
-mkb = 'd:/src/marmalade/BallGame/BallGame.mkb'
+cmdline = ['C:/Marmalade/7.3/s3e/makefile_builder/mkb.py', 'c:/Matz_Stuff/src/BallGame/BallGame.mkb', '--buildenv=VC12X', '--debug', '--x86', '--no-ide', '--execute', '--deploy-only']
+mkb = 'c:/Matz_Stuff/src/BallGame/BallGame.mkb'
 mkf = ['c:\\marmalade\\7.3\\modules\\iwutil\\iwutil.mkf', 'c:\\marmalade\\7.3\\modules\\third_party\\libjpeg\\libjpeg.mkf', 'c:\\marmalade\\7.3\\modules\\third_party\\libpng\\libpng.mkf', 'c:\\marmalade\\7.3\\modules\\third_party\\zlib\\zlib.mkf', 'c:\\marmalade\\7.3\\modules\\iw2dscenegraphcore\\iw2dscenegraphcore.mkf', 'c:\\marmalade\\7.3\\modules\\iw2dscenegraph\\iw2dscenegraph.mkf', 'c:\\marmalade\\7.3\\modules\\iw2d\\iw2d.mkf', 'c:\\marmalade\\7.3\\modules\\iwgx\\iwgx.mkf', 'c:\\marmalade\\7.3\\modules\\iwgl\\iwgl.mkf', 'c:\\marmalade\\7.3\\modules\\iwgeom\\iwgeom.mkf', 'c:\\marmalade\\7.3\\modules\\iwresmanager\\iwresmanager.mkf', 'c:\\marmalade\\7.3\\extensions\\pvrtextool\\pvrtextool.mkf', 'c:\\marmalade\\7.3\\modules\\iwgxfont\\iwgxfont.mkf', 'c:\\marmalade\\7.3\\modules\\third_party\\tiniconv\\tiniconv.mkf', 'c:\\marmalade\\7.3\\modules\\iwtween\\iwtween.mkf']
 
 class DeployConfig(object):
@@ -16,7 +16,7 @@ class DeployConfig(object):
 assets = {}
 
 assets['Default'] = [
-    ('d:/src/marmalade/BallGame\data', '.', 0),
+    ('c:/Matz_Stuff/src/BallGame\data', '.', 0),
 ]
 
 ######### DEFAULT CONFIG #############
@@ -29,8 +29,8 @@ class DefaultConfig(DeployConfig):
     caption = 'BallGame'
     long_caption = 'BallGame'
     version = [0, 0, 1]
-    config = ['d:/src/marmalade/BallGame/data/app.icf']
-    data_dir = 'd:/src/marmalade/BallGame/data'
+    config = ['c:/Matz_Stuff/src/BallGame/data/app.icf']
+    data_dir = 'c:/Matz_Stuff/src/BallGame/data'
     iphone_link_lib = []
     osx_ext_dll = ['c:/marmalade/7.3/extensions/pvrtextool/lib/osx/libPVRTexTool.dylib']
     ws8_ext_capabilities = []
@@ -66,36 +66,36 @@ class DefaultConfig(DeployConfig):
     iphone_link_libs = []
     target = {
          'gcc_x86' : {
-                   'debug'   : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_gcc_x86/BallGame.so',
-                   'release' : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_gcc_x86/BallGame.so',
+                   'debug'   : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_gcc_x86/BallGame.so',
+                   'release' : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_gcc_x86/BallGame.so',
                  },
          'gcc_x86_tizen' : {
-                   'debug'   : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_gcc_x86_tizen/BallGame.s86',
-                   'release' : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_gcc_x86_tizen/BallGame.s86',
+                   'debug'   : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_gcc_x86_tizen/BallGame.s86',
+                   'release' : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_gcc_x86_tizen/BallGame.s86',
                  },
          'mips_gcc' : {
-                   'debug'   : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_gcc_mips/BallGame.so',
-                   'release' : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_gcc_mips/BallGame.so',
+                   'debug'   : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_gcc_mips/BallGame.so',
+                   'release' : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_gcc_mips/BallGame.so',
                  },
          'arm_gcc' : {
-                   'debug'   : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_gcc_arm/BallGame.s3e',
-                   'release' : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_gcc_arm/BallGame.s3e',
+                   'debug'   : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_gcc_arm/BallGame.s3e',
+                   'release' : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_gcc_arm/BallGame.s3e',
                  },
          'mips' : {
-                   'debug'   : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_gcc_mips/BallGame.so',
-                   'release' : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_gcc_mips/BallGame.so',
+                   'debug'   : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_gcc_mips/BallGame.so',
+                   'release' : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_gcc_mips/BallGame.so',
                  },
          'gcc_x86_android' : {
-                   'debug'   : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_gcc_x86_android/BallGame.so',
-                   'release' : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_gcc_x86_android/BallGame.so',
+                   'debug'   : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_gcc_x86_android/BallGame.so',
+                   'release' : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_gcc_x86_android/BallGame.so',
                  },
          'arm' : {
-                   'debug'   : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_arm/BallGame.s3e',
-                   'release' : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_arm/BallGame.s3e',
+                   'debug'   : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_arm/BallGame.s3e',
+                   'release' : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_arm/BallGame.s3e',
                  },
          'x86' : {
-                   'debug'   : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_x86/BallGame.s86',
-                   'release' : r'd:/src/marmalade/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_x86/BallGame.s86',
+                   'debug'   : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Debug_BallGame_VC12X_x86/BallGame.s86',
+                   'release' : r'c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Release_BallGame_VC12X_x86/BallGame.s86',
                  },
         }
     arm_arch = ''

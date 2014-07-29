@@ -10,13 +10,17 @@ using namespace Iw2DSceneGraph;
 // Scene root node
 CNode* g_SceneRoot = NULL;
 Ball* ball = NULL;
-
+CSprite* sprite = NULL;
 
 // Main entry point for the application
 int main()
 {
     //Initialise graphics system(s)
     Iw2DInit();
+
+	IwGetResManager()->LoadGroup("Level1.group");
+	
+	image = Iw2DCreateImageResource("image");
 
     // Create root node
     g_SceneRoot = new CNode();
@@ -28,8 +32,14 @@ int main()
 	ball->m_Vy = (float)IwGxGetScreenHeight() / 10;
 	ball->m_R = (float)IwGxGetScreenHeight() / 20;
     // Add 2D scene graph nodes to the root node here
-
+	sprite = new CSprite();
+	bucket_sprite->Init();
+	sprite->m_X = ball->m_X;
+	sprite->m_Y = ball->m_Y;
+	// bucket_sprite->setPosAngScale(screen_width / 2, (screen_height * 3) / 4, 0, IW_GEOM_ONE);
+	sprite->setImage(image);
     
+	g_SceneRoot->AddChild(sprite);
 
     // Loop forever, until the user or the OS performs some action to quit the app
     while (!s3eDeviceCheckQuitRequest())
@@ -42,13 +52,16 @@ int main()
         //framerate of 20fps, so we pass that duration to the update function.
         g_SceneRoot->Update(1000/20);
 
-        Iw2DSurfaceClear(0xff00ff00);
+		sprite->Update(1000/20, 1000/20);
+		sprite->m_X = ball->m_X;
+		sprite->m_Y = ball->m_Y;
+        Iw2DSurfaceClear(0xffffffff);
         
         // Your rendering/app code goes here.
 
 
         g_SceneRoot->Render();
-
+		sprite->Render();
         //Draws Surface to screen
         Iw2DSurfaceShow();
 

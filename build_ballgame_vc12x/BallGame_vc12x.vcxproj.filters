@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="(libpng)">
@@ -88,11 +88,13 @@
     <None Include="c:/marmalade/7.3/s3e/h/std/c++/algorithm">
       <Filter>'Marmalade System (S3E)'\stdc headers\c++</Filter>
     </None>
-    <None Include="d:/src/marmalade/BallGame/data/app.config.txt">
-      <Filter></Filter>
+    <None Include="c:/Matz_Stuff/src/BallGame/data/app.config.txt">
+      <Filter>
+      </Filter>
     </None>
-    <None Include="d:/src/marmalade/BallGame/data/app.icf">
-      <Filter></Filter>
+    <None Include="c:/Matz_Stuff/src/BallGame/data/app.icf">
+      <Filter>
+      </Filter>
     </None>
     <None Include="c:/marmalade/7.3/s3e/h/std/c++/bitset">
       <Filter>'Marmalade System (S3E)'\stdc headers\c++</Filter>
@@ -346,15 +348,13 @@
     <None Include="c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf">
       <Filter>(zlib)</Filter>
     </None>
-    <CustomBuild Include="d:/src/marmalade/BallGame/BallGame.mkb">
-      <Filter></Filter>
-    </CustomBuild>
+    <None Include="..\Level1.group" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c:/marmalade/7.3/s3e/h/AirplayVersion.h">
       <Filter>'Marmalade System (S3E)'</Filter>
     </ClInclude>
-    <ClInclude Include="d:/src/marmalade/BallGame/build_ballgame_vc12x/Ball.h">
+    <ClInclude Include="c:/Matz_Stuff/src/BallGame/build_ballgame_vc12x/Ball.h">
       <Filter>build_ballgame_vc12x</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.3/modules/iw2d/h/Iw2D.h">
@@ -1245,19 +1245,23 @@
       <Filter>build_ballgame_vc12x</Filter>
     </ClCompile>
     <ClCompile Include="..\BallGame.cpp">
-      <Filter></Filter>
+      <Filter>
+      </Filter>
     </ClCompile>
-    <ClCompile Include="c:\marmalade\7.3\modules\iw2dscenegraph\source\Iw2DSceneGraph.cpp">
+    <ClCompile Include="..\..\..\..\marmalade\7.3\modules\iw2dscenegraph\source\Iw2DSceneGraph.cpp">
       <Filter>'Marmalade Studio'\iw2dscenegraph</Filter>
     </ClCompile>
-    <ClCompile Include="c:\marmalade\7.3\modules\iw2dscenegraphcore\source\Iw2DSceneGraphCore.cpp">
+    <ClCompile Include="..\..\..\..\marmalade\7.3\modules\iw2dscenegraphcore\source\Iw2DSceneGraphCore.cpp">
       <Filter>'Marmalade Studio'\iw2dscenegraphcore</Filter>
     </ClCompile>
-    <ClCompile Include="c:\marmalade\7.3\modules\iwtween\source\IwTween.cpp">
+    <ClCompile Include="..\..\..\..\marmalade\7.3\modules\iwtween\source\IwTween.cpp">
       <Filter>(iwtween)</Filter>
     </ClCompile>
-    <ClCompile Include="c:\marmalade\7.3\extensions\pvrtextool\interface\PVRTexTool_interface.cpp">
+    <ClCompile Include="..\..\..\..\marmalade\7.3\extensions\pvrtextool\interface\PVRTexTool_interface.cpp">
       <Filter>Extensions\PVRTexTool\interface</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\BallGame.mkb" />
   </ItemGroup>
 </Project>
