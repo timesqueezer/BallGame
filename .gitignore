@@ -1,0 +1,5 @@
+build_ballgame_vc12x/*
+!/build_ballgame_vc12x/Ball.*
+data/*
+data-ram/*
+project_BallGame/*
